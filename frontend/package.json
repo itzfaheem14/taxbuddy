@@ -1,0 +1,48 @@
+{
+  "name": "museaika-frontend",
+  "version": "1.0.0",
+  "description": "MuseAIka - AI-powered emotion-based music recommender frontend",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "14.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@mui/material": "^5.14.18",
+    "@mui/icons-material": "^5.14.18",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/lab": "^5.0.0-alpha.155",
+    "chart.js": "^4.4.0",
+    "react-chartjs-2": "^5.2.0",
+    "socket.io-client": "^4.7.4",
+    "axios": "^1.6.2",
+    "react-webcam": "^7.1.1",
+    "canvas-confetti": "^1.9.2",
+    "framer-motion": "^10.16.5",
+    "react-dropzone": "^14.2.3",
+    "js-cookie": "^3.0.5",
+    "react-query": "^3.39.3",
+    "zustand": "^4.4.7",
+    "react-hot-toast": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.4",
+    "@types/react": "^18.2.38",
+    "@types/react-dom": "^18.2.17",
+    "@types/js-cookie": "^3.0.6",
+    "typescript": "^5.3.2",
+    "eslint": "^8.54.0",
+    "eslint-config-next": "14.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
