@@ -1,0 +1,150 @@
+/* Custom styles for Hurray Cafe */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Category card animations */
+.category-card {
+    transition: all 0.3s ease;
+    transform: translateY(0);
+}
+
+.category-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.category-card:active {
+    transform: translateY(0);
+}
+
+/* Gradient overlays for category images */
+.category-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.category-image::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.3));
+}
+
+/* Modal animations */
+#category-modal {
+    backdrop-filter: blur(4px);
+}
+
+#category-modal .bg-white {
+    animation: slideUp 0.3s ease-out;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* Menu item cards */
+.menu-item {
+    transition: all 0.2s ease;
+}
+
+.menu-item:hover {
+    background-color: #f8fafc;
+}
+
+/* Loading animation */
+.loading-dots {
+    display: inline-block;
+}
+
+.loading-dots::after {
+    content: '';
+    animation: dots 1.5s infinite;
+}
+
+@keyframes dots {
+    0%, 20% { content: ''; }
+    40% { content: '.'; }
+    60% { content: '..'; }
+    80%, 100% { content: '...'; }
+}
+
+/* Custom scrollbar for modal */
+#modal-content::-webkit-scrollbar {
+    width: 4px;
+}
+
+#modal-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+#modal-content::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 10px;
+}
+
+/* Button hover effects */
+.explore-btn {
+    transition: all 0.2s ease;
+}
+
+.explore-btn:hover {
+    background-color: #374151;
+    transform: translateX(2px);
+}
+
+/* Status bar simulation */
+.status-bar {
+    height: 20px;
+    background: linear-gradient(90deg, #000 0%, #000 100%);
+}
+
+/* Responsive adjustments */
+@media (max-width: 375px) {
+    .grid-cols-2 {
+        gap: 0.75rem;
+    }
+    
+    .text-2xl {
+        font-size: 1.5rem;
+    }
+}
+
+/* Animation for category cards on load */
+.category-card {
+    opacity: 0;
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+.category-card:nth-child(1) { animation-delay: 0.1s; }
+.category-card:nth-child(2) { animation-delay: 0.2s; }
+.category-card:nth-child(3) { animation-delay: 0.3s; }
+.category-card:nth-child(4) { animation-delay: 0.4s; }
+.category-card:nth-child(5) { animation-delay: 0.5s; }
+.category-card:nth-child(6) { animation-delay: 0.6s; }
+.category-card:nth-child(7) { animation-delay: 0.7s; }
+.category-card:nth-child(8) { animation-delay: 0.8s; }
+.category-card:nth-child(9) { animation-delay: 0.9s; }
+.category-card:nth-child(10) { animation-delay: 1.0s; }
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

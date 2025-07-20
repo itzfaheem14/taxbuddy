@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hurray Cafe - Scan. Order. Enjoy.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-md mx-auto px-4 py-3 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <span class="text-lg font-semibold text-gray-800">Welcome to Hurray Cafe</span>
+                <i class="fas fa-bell text-yellow-500"></i>
+            </div>
+            <div class="w-8 h-8 bg-black text-white rounded-full flex items-center justify-center text-sm font-bold">
+                HC
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-md mx-auto">
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-r from-orange-400 to-yellow-500 text-white p-6 m-4 rounded-2xl">
+            <h1 class="text-2xl font-bold mb-2">Scan. Order. Enjoy.</h1>
+            <p class="text-sm opacity-90">Discover our delicious menu categories.</p>
+        </section>
+
+        <!-- Menu Categories -->
+        <section class="px-4 pb-6">
+            <div id="menu-grid" class="grid grid-cols-2 gap-4">
+                <!-- Menu items will be loaded here by JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Loading Spinner -->
+    <div id="loading" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+        <div class="bg-white p-6 rounded-lg flex items-center space-x-3">
+            <div class="animate-spin rounded-full h-6 w-6 border-b-2 border-orange-500"></div>
+            <span>Loading...</span>
+        </div>
+    </div>
+
+    <!-- Category Detail Modal -->
+    <div id="category-modal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-end z-50">
+        <div class="bg-white rounded-t-3xl w-full max-h-[80vh] overflow-y-auto">
+            <div class="p-6">
+                <div class="flex items-center justify-between mb-4">
+                    <h2 id="modal-title" class="text-2xl font-bold"></h2>
+                    <button id="close-modal" class="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center">
+                        <i class="fas fa-times text-gray-600"></i>
+                    </button>
+                </div>
+                <div id="modal-content" class="space-y-4">
+                    <!-- Category items will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

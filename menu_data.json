@@ -1,0 +1,352 @@
+{
+  "categories": [
+    {
+      "id": "pizza",
+      "name": "Pizza",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=300&h=200&fit=crop",
+      "description": "Authentic wood-fired pizzas with fresh ingredients",
+      "items": [
+        {
+          "id": "margherita",
+          "name": "Margherita Pizza",
+          "price": 12.99,
+          "description": "Classic tomato sauce, mozzarella, and fresh basil",
+          "image": "https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?w=200&h=150&fit=crop"
+        },
+        {
+          "id": "pepperoni",
+          "name": "Pepperoni Pizza",
+          "price": 14.99,
+          "description": "Tomato sauce, mozzarella, and pepperoni",
+          "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=200&h=150&fit=crop"
+        },
+        {
+          "id": "supreme",
+          "name": "Supreme Pizza",
+          "price": 17.99,
+          "description": "Loaded with pepperoni, sausage, peppers, and mushrooms",
+          "image": "https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=200&h=150&fit=crop"
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=300&h=200&fit=crop",
+      "description": "Sweet treats to end your meal perfectly",
+      "items": [
+        {
+          "id": "tiramisu",
+          "name": "Classic Tiramisu",
+          "price": 7.99,
+          "description": "Traditional Italian dessert with coffee-soaked ladyfingers",
+          "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=200&h=150&fit=crop"
+        },
+        {
+          "id": "cheesecake",
+          "name": "New York Cheesecake",
+          "price": 6.99,
+          "description": "Rich and creamy cheesecake with berry compote",
+          "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=200&h=150&fit=crop"
+        },
+        {
+          "id": "chocolate-lava",
+          "name": "Chocolate Lava Cake",
+          "price": 8.99,
+          "description": "Warm chocolate cake with molten center",
+          "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=200&h=150&fit=crop"
+        }
+      ]
+    },
+    {
+      "id": "chai",
+      "name": "Chai",
+      "image": "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=300&h=200&fit=crop",
+      "description": "Aromatic spiced tea blends from around the world",
+      "items": [
+        {
+          "id": "masala-chai",
+          "name": "Masala Chai",
+          "price": 4.99,
+          "description": "Traditional Indian spiced tea with milk",
+          "image": "https://images.unsplash.com/photo-1597318236344-6d0e3065c7b1?w=200&h=150&fit=crop"
+        },
+        {
+          "id": "vanilla-chai",
+          "name": "Vanilla Chai Latte",
+          "price": 5.49,
+          "description": "Creamy chai with vanilla and steamed milk",
+          "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=200&h=150&fit=crop"
+        },
+        {
+          "id": "iced-chai",
+          "name": "Iced Chai",
+          "price": 4.79,
+          "description": "Refreshing cold chai with ice and milk",
+          "image": "https://images.unsplash.com/photo-1594631661960-0af3638cd36f?w=200&h=150&fit=crop"
+        }
+      ]
+    },
+    {
+      "id": "mocktails",
+      "name": "Mocktails",
+      "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?w=300&h=200&fit=crop",
+      "description": "Refreshing non-alcoholic cocktails",
+      "items": [
+        {
+          "id": "virgin-mojito",
+          "name": "Virgin Mojito",
+          "price": 6.99,
+          "description": "Fresh mint, lime, and soda water",
+          "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=200&h=150&fit=crop"
+        },
+        {
+          "id": "fruit-punch",
+          "name": "Tropical Fruit Punch",
+          "price": 7.49,
+          "description": "Mixed tropical fruits with sparkling water",
+          "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=200&h=150&fit=crop"
+        },
+        {
+          "id": "cucumber-mint",
+          "name": "Cucumber Mint Cooler",
+          "price": 6.49,
+          "description": "Fresh cucumber and mint with lime",
+          "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=200&h=150&fit=crop"
+        }
+      ]
+    },
+    {
+      "id": "ice-cream",
+      "name": "Ice Cream",
+      "image": "https://images.unsplash.com/photo-1576506295286-5cda18df43e7?w=300&h=200&fit=crop",
+      "description": "Premium ice cream in various flavors",
+      "items": [
+        {
+          "id": "vanilla",
+          "name": "Vanilla Bean",
+          "price": 4.99,
+          "description": "Classic vanilla ice cream with real vanilla beans",
+          "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=200&h=150&fit=crop"
+        },
+        {
+          "id": "chocolate",
+          "name": "Double Chocolate",
+          "price": 5.49,
+          "description": "Rich chocolate ice cream with chocolate chips",
+          "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=200&h=150&fit=crop"
+        },
+        {
+          "id": "strawberry",
+          "name": "Fresh Strawberry",
+          "price": 5.29,
+          "description": "Creamy strawberry ice cream with real fruit pieces",
+          "image": "https://images.unsplash.com/photo-1488900128323-21503983a07e?w=200&h=150&fit=crop"
+        }
+      ]
+    },
+    {
+      "id": "shakes",
+      "name": "Shakes",
+      "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=300&h=200&fit=crop",
+      "description": "Thick and creamy milkshakes",
+      "items": [
+        {
+          "id": "chocolate-shake",
+          "name": "Chocolate Milkshake",
+          "price": 6.99,
+          "description": "Rich chocolate milkshake topped with whipped cream",
+          "image": "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=200&h=150&fit=crop"
+        },
+        {
+          "id": "vanilla-shake",
+          "name": "Vanilla Milkshake",
+          "price": 6.49,
+          "description": "Classic vanilla milkshake with a cherry on top",
+          "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=200&h=150&fit=crop"
+        },
+        {
+          "id": "oreo-shake",
+          "name": "Oreo Milkshake",
+          "price": 7.99,
+          "description": "Vanilla milkshake blended with Oreo cookies",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=200&h=150&fit=crop"
+        }
+      ]
+    },
+    {
+      "id": "cold-coffee",
+      "name": "Cold Coffee",
+      "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=300&h=200&fit=crop",
+      "description": "Refreshing cold coffee beverages",
+      "items": [
+        {
+          "id": "iced-americano",
+          "name": "Iced Americano",
+          "price": 4.49,
+          "description": "Double shot espresso over ice",
+          "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=200&h=150&fit=crop"
+        },
+        {
+          "id": "cold-brew",
+          "name": "Cold Brew Coffee",
+          "price": 5.29,
+          "description": "Smooth cold-brewed coffee served over ice",
+          "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=200&h=150&fit=crop"
+        },
+        {
+          "id": "frappuccino",
+          "name": "Coffee Frappuccino",
+          "price": 6.79,
+          "description": "Blended coffee with ice and whipped cream",
+          "image": "https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?w=200&h=150&fit=crop"
+        }
+      ]
+    },
+    {
+      "id": "beer",
+      "name": "Beer",
+      "image": "https://images.unsplash.com/photo-1608270586620-248524c67de9?w=300&h=200&fit=crop",
+      "description": "Craft and imported beers",
+      "items": [
+        {
+          "id": "lager",
+          "name": "Premium Lager",
+          "price": 5.99,
+          "description": "Crisp and refreshing light beer",
+          "image": "https://images.unsplash.com/photo-1608270586620-248524c67de9?w=200&h=150&fit=crop"
+        },
+        {
+          "id": "wheat-beer",
+          "name": "Wheat Beer",
+          "price": 6.49,
+          "description": "Smooth wheat beer with citrus notes",
+          "image": "https://images.unsplash.com/photo-1571613316887-6f8d5cbf7ef7?w=200&h=150&fit=crop"
+        },
+        {
+          "id": "ipa",
+          "name": "IPA",
+          "price": 7.29,
+          "description": "Hoppy India Pale Ale with bold flavors",
+          "image": "https://images.unsplash.com/photo-1535958636474-b021ee887b13?w=200&h=150&fit=crop"
+        }
+      ]
+    },
+    {
+      "id": "chili",
+      "name": "Chili",
+      "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=300&h=200&fit=crop",
+      "description": "Spicy and hearty chili dishes",
+      "items": [
+        {
+          "id": "classic-chili",
+          "name": "Classic Beef Chili",
+          "price": 8.99,
+          "description": "Hearty beef chili with beans and spices",
+          "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=200&h=150&fit=crop"
+        },
+        {
+          "id": "veggie-chili",
+          "name": "Vegetarian Chili",
+          "price": 7.99,
+          "description": "Protein-rich vegetarian chili with mixed beans",
+          "image": "https://images.unsplash.com/photo-1551247681-57b5386730cb?w=200&h=150&fit=crop"
+        },
+        {
+          "id": "white-chili",
+          "name": "White Chicken Chili",
+          "price": 9.49,
+          "description": "Creamy white chili with tender chicken",
+          "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=200&h=150&fit=crop"
+        }
+      ]
+    },
+    {
+      "id": "french-fries",
+      "name": "French Fries",
+      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=300&h=200&fit=crop",
+      "description": "Crispy golden french fries",
+      "items": [
+        {
+          "id": "classic-fries",
+          "name": "Classic Fries",
+          "price": 4.99,
+          "description": "Golden crispy fries with sea salt",
+          "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=200&h=150&fit=crop"
+        },
+        {
+          "id": "loaded-fries",
+          "name": "Loaded Fries",
+          "price": 7.99,
+          "description": "Fries topped with cheese, bacon, and green onions",
+          "image": "https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?w=200&h=150&fit=crop"
+        },
+        {
+          "id": "sweet-potato-fries",
+          "name": "Sweet Potato Fries",
+          "price": 6.49,
+          "description": "Crispy sweet potato fries with cinnamon sugar",
+          "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433a?w=200&h=150&fit=crop"
+        }
+      ]
+    },
+    {
+      "id": "corn",
+      "name": "Corn",
+      "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?w=300&h=200&fit=crop",
+      "description": "Fresh corn dishes and sides",
+      "items": [
+        {
+          "id": "grilled-corn",
+          "name": "Grilled Corn on the Cob",
+          "price": 3.99,
+          "description": "Grilled corn with butter and herbs",
+          "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?w=200&h=150&fit=crop"
+        },
+        {
+          "id": "mexican-corn",
+          "name": "Mexican Street Corn",
+          "price": 5.49,
+          "description": "Corn with mayo, cheese, chili powder, and lime",
+          "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=200&h=150&fit=crop"
+        },
+        {
+          "id": "corn-salad",
+          "name": "Fresh Corn Salad",
+          "price": 6.99,
+          "description": "Mixed corn salad with peppers and herbs",
+          "image": "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=200&h=150&fit=crop"
+        }
+      ]
+    },
+    {
+      "id": "sandwich",
+      "name": "Sandwich",
+      "image": "https://images.unsplash.com/photo-1553909489-cd47e0ef937f?w=300&h=200&fit=crop",
+      "description": "Fresh sandwiches made to order",
+      "items": [
+        {
+          "id": "club-sandwich",
+          "name": "Club Sandwich",
+          "price": 9.99,
+          "description": "Triple-decker with turkey, bacon, lettuce, and tomato",
+          "image": "https://images.unsplash.com/photo-1553909489-cd47e0ef937f?w=200&h=150&fit=crop"
+        },
+        {
+          "id": "grilled-cheese",
+          "name": "Grilled Cheese",
+          "price": 6.99,
+          "description": "Classic grilled cheese with tomato soup",
+          "image": "https://images.unsplash.com/photo-1528736235302-52922df5c122?w=200&h=150&fit=crop"
+        },
+        {
+          "id": "blt",
+          "name": "BLT Sandwich",
+          "price": 8.49,
+          "description": "Bacon, lettuce, and tomato on toasted bread",
+          "image": "https://images.unsplash.com/photo-1571091655789-405eb7a3a3a8?w=200&h=150&fit=crop"
+        }
+      ]
+    }
+  ]
+}
